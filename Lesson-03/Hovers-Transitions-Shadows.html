@@ -1,16 +1,21 @@
 <style>
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
   .sub-btn{
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     color: white;
     border: none;
     border-radius: 3px;
     padding: 10px 15px;
     cursor: pointer;
+    transition: opacity 0.20s;
+  }
+  .sub-btn:hover{
+    /* background-color: rgb(224, 96, 96); */
+    opacity: 0.6;
+  }
+  .sub-btn:active{
+    /* background-color: rgb(224, 184, 164); */
+    opacity: 0.3;
   }
   .join-btn{
     margin-left: 15px;
@@ -22,6 +27,15 @@
     background: none;
     border-radius: 2px;
     cursor:pointer;
+    transition:background-color 0.20s,
+        color 0.20s;
+  }
+  .join-btn:hover{
+    color: white;
+    background-color: rgb(70, 136, 236);
+  }
+  .join-btn:active{
+    opacity: 0.4;
   }
   .tweet-btn{
     color: white;
@@ -33,15 +47,34 @@
     cursor: pointer;
     font-weight: bold;
     font-size: 15px;
+    transition: box-shadow 0.20s;
+    
+  }
+  .tweet-btn:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0 , 0.20);
+  }
+  .div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
   }
 </style>
 
-<button class="sub-btn">
-  SUBSCRIBE
-</button>
-<button class="join-btn">
-  JOIN
-</button>
-<button class="tweet-btn">
-  Tweet
-</button>
+<h2>
+  Hovers, Transitions, Shadows
+</h2>
+<div class="div1">
+  <button class="sub-btn">
+    SUBSCRIBE
+  </button>
+  <button class="join-btn">
+    JOIN
+  </button>
+  <button class="tweet-btn">
+    Tweet
+  </button>
+</div>
