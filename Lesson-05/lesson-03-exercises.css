@@ -1,0 +1,163 @@
+
+  .tahoma-font{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .deals{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .sales{
+    margin-top: 0;
+    font-family: Arial;
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+  }
+  .div1{
+    margin-top: 40px;
+    font-family: Verdana;
+  }
+
+  .div-p1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .div-p2{
+    color:rgb(96, 96, 96) ;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .div-p3{
+    font-size: 15px;
+    width: 280px;
+  }
+  .start-btn{
+    color: white;
+    background-color: rgb(9, 138, 9);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .div2{
+    font-family: Arial;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .div2-p1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .div2-p2{
+    font-size: 15px;
+  }
+  .div2-p3{
+    font-size: 15px;
+    color: rgb(3, 96, 235);
+    cursor: pointer;
+    transition: text-decoration 0.5s;
+  }
+  .div2-p3:hover{
+    text-decoration: underline;
+  }
+
+  .div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .new-p{
+    color: red;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .name-p{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 3px;
+  }
+  .description-p{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .price-p{
+    font-size: 15px;
+  }
+  .buy-btn{
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    background-color: rgb(42, 118, 211);
+    border-radius: 20px;
+  }
+  .cost-p{
+    font-family: Arial;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .div4{
+    font-family: Arial;
+    margin-bottom: 30px;
+  }
+  .usd-p{
+    color: gray;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .rate-p{
+    margin-top: 0;
+    color: green;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .text-p{
+    margin-top: 0;
+    color: rgb(113, 111, 111);
+    font-size: 15px;
+  }
+  .negative{
+    color: rgb(210, 10, 10);
+  }
+
+  .div5{
+    font-family: Arial;
+  }
+  .setcareer-p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .span-1{
+    color: rgb(96, 96, 96);
+    font-weight: normal;
+  }
+  .setcareer-description{
+    font-size: 15px;
+    width: 350px;
+    margin-top: 0;
+  }
+  .span-2{
+    color: rgb(26, 185, 50);
+  }
+
+  
