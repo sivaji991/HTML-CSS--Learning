@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Block and Inline-Block</title>
+  <style>
+    .name-input, .email-input{
+      font-size: 15px;
+      border-radius: 3px;
+      border-width: 1px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .message{
+      width: 200px;
+      display:inline-block;
+      vertical-align: middle;
+    }
+    .google-search-bar{
+      margin-top: 10px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      padding: 8px 10px;
+      
+      border: none;
+      border-radius: 28px;
+      box-shadow: 3px 3px 8px rgb(167, 161, 161);
+    }
+    .google-png{
+      width: 150px;
+      margin-left: 100px;
+      margin-bottom: 0;
+    }
+
+    .sign-up-form{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .first-name, .last-name, .email-in, .sign-up-btn{
+      width: 120px;
+      font-size: 15px;
+      border-radius: 5px;
+      border-width: 1px;
+      border: none;
+      border-color: rgb(208, 202, 202);
+      padding: 10px 15px;
+      box-shadow: 5px 5px 12px rgb(146, 142, 142);
+    }
+    .first-name{
+      margin-right: 10px;
+    }
+    .email-in{
+      width: 285px;
+      display: block;
+      margin-top: 20px;
+    }
+    .sign-up-btn{
+      margin-top: 20px;
+      width: 315px;
+      background-color: rgb(0, 140, 255);
+      color: white;
+      font-weight: bold;
+    }
+    .sign-up-btn:active{
+      box-shadow: 2px 2px 8px rgb(146, 142, 142);
+    }
+    .uber-ride-div{
+      margin-bottom: 60px;
+    }
+    .request-ride{
+      font-family: Arial;
+      font-size: 25px;
+    }
+    .location-inputs{
+      width: 245px;
+      display: block;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      background-color: rgb(240, 240, 240);
+      margin-bottom: 10px;
+    }
+    .request-btn{
+      padding: 10px 18px;
+      border: none;
+      color: white;
+      background-color: black;
+      margin-right: 15px;
+    }
+    .schedule-btn{
+      border: none;
+      padding: 10px 18px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <input class="name-input" type="text" placeholder="Name">
+    <input class="email-input" type="text" placeholder="Email">
+  </div>
+  <div>
+    <p class="message">
+      Thanks for chatting with our customer support. Would you like to take our quick survey?
+    </p> 
+    <button>
+      Yes
+    </button>
+    <button>
+      No
+    </button>
+  </div>
+  <div>
+    <img class="google-png" src="/thumbnails/google.png" alt="">
+    <input class="google-search-bar" type="text" placeholder="Search">
+  </div>
+  <p>----------------------------</p>
+  <div class="sign-up-form">
+    <input class="first-name" type="text" name="firstName" placeholder="First name">
+    <input class="last-name" type="text" name="lastName" placeholder="Last name">
+    <input class="email-in" type="email" placeholder="Email">
+    <button class="sign-up-btn">Sign Up</button>
+  </div>
+  <p>----------------------------</p>
+  <div class="uber-ride-div">
+    <p>Uber request-a-ride form</p>
+    <p class="request-ride">Request a ride now</p>
+    <input class="location-inputs" type="text" placeholder="Enter pickup location">
+    <input class="location-inputs" type="text" placeholder="Enter destination">
+    <button class="request-btn">Request now</button>
+    <button class="schedule-btn">Schedule for later</button>
+  </div>
+
+</body>
+</html>
