@@ -74,6 +74,16 @@
       height: 150px;
       object-fit: cover;
       margin-bottom: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+      transition: box-shadow 0.2s,
+                  width 0.2s, 
+                  height 0.2s;
+    }
+    .lion-img:hover{
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.9);
+      width: 160px;
+      height: 160px;
     }
     .name-p{
       font-weight: bold;
@@ -84,6 +94,8 @@
       color: rgb(130, 129, 129);
       margin-top: 0;
       margin-bottom: 10px;
+
+      display: inline-block;
     }
     .add-btn{
       padding: 8px 16px;
@@ -91,6 +103,25 @@
       border-radius: 5px;
       background-color: rgb(8, 116, 205);
       color: white;
+      transition: box-shadow 0.2s;
+      margin-top: 13px;
+    }
+    .add-btn:hover{
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .profile-image{
+      width: 25px;
+      height: 25px;
+      object-fit: cover;
+      border-radius: 50%;
+      vertical-align: middle;
+
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      transition: box-shadow 0.2s;
+    }
+    .profile-image:hover{
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.9);
     }
 
   </style>
@@ -112,18 +143,21 @@
   <div class="card">
     <img class="lion-img" src="/thumbnails/lion.webp" alt="">
     <p class="name-p">Mufasa</p>
+    <img class="profile-image" src="/thumbnails/pet-3.png" alt="">
     <p class="friends-p">3 mutual friends</p>
     <button class="add-btn">Add Friend</button>
   </div>
   <div class="card">
     <img class="lion-img" src="/thumbnails/pet-01.webp" alt="">
     <p class="name-p">Dober</p>
+    <img class="profile-image" src="/thumbnails/pet-3.png" alt="">
     <p class="friends-p">2 mutual friends</p>
     <button class="add-btn">Add Friend</button>
   </div>
   <div class="card">
     <img class="lion-img" src="/thumbnails/pet-02.webp" alt="">
     <p class="name-p">Cat</p>
+    <img class="profile-image" src="/thumbnails/pet-3.png" alt="">
     <p class="friends-p">1 mutual friends</p>
     <button class="add-btn">Add Friend</button>
   </div>

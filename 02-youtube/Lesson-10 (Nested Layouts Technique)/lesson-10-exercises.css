@@ -1,0 +1,71 @@
+p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Arial;
+        line-height: 22px;
+      }
+      .profile {
+        width: 350px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 18px;
+      }
+      .profile-pic {
+        width: 75px;
+      }
+      .lion-pic {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .profile-info {
+        flex: 1;
+      }
+      .follow-btn {
+        padding: 8px 18px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(32, 124, 217);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .name {
+        font-weight: bold;
+      }
+      .details {
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+      }
+      .btn {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .video-info {
+        width: 450px;
+
+        display: flex;
+      }
+      .video-thumbnails {
+      }
+      .thumbnails {
+        width: 200px;
+        height: 120px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+      .bold-content {
+        font-weight: bold;
+        line-height: 20px;
+      }
+      .channel,
+      .views {
+        color: rgb(96, 96, 96);
+        font-size: 13px;
+      }
+      .channel {
+        margin-top: 15px;
+      }
