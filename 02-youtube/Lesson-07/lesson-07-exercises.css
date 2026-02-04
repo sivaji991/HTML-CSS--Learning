@@ -69,6 +69,12 @@ body{
       display: flex;
       align-items: center;
       margin-bottom: 40px;
+      width: 500px;
+      height: 60px;
+      color: rgb(196, 188, 188);
+      border-width: 0.5px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
     .tweet-profile{
       width: 50px;
@@ -77,10 +83,12 @@ body{
       border-radius: 25px;
       vertical-align: middle;
       margin-right: 5px;
+      margin-left: 15px;
     }
     .tweet-msg{
       display: inline-block;
       font-size: 18px;
+      color: grey;
       border: none;
       width: 300px;
       vertical-align: middle;
