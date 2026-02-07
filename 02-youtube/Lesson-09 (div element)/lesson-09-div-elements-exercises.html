@@ -55,6 +55,13 @@
       font-size: 15px;
       color: rgb(128, 128, 128);
     }
+
+    .d11{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 15px;
+    }
+    
     .card{
       margin-bottom: 50px;
 
@@ -63,7 +70,6 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
       padding: 15px 20px;
       font-family: Arial;
-      display: inline-block;
       margin-right: 10px;
     }
     .card:active{
@@ -94,8 +100,6 @@
       color: rgb(130, 129, 129);
       margin-top: 0;
       margin-bottom: 10px;
-
-      display: inline-block;
     }
     .add-btn{
       padding: 8px 16px;
@@ -140,7 +144,8 @@
     <p class="youtube-title">Install YouTube Music</p>
     <p class="youtube-msg">Add YouTube Music to your desktop for quick and easy access.</p>
   </div>
-  <div class="card">
+  <div class="d11">
+    <div class="card">
     <img class="lion-img" src="/thumbnails/lion.webp" alt="">
     <p class="name-p">Mufasa</p>
     <img class="profile-image" src="/thumbnails/pet-3.png" alt="">
@@ -161,5 +166,7 @@
     <p class="friends-p">1 mutual friends</p>
     <button class="add-btn">Add Friend</button>
   </div>
+  </div>
+  
 </body>
 </html>
