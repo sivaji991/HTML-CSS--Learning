@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercises</title>
+  <style>
+    .a12, .b12, .c12, .d12{
+      display: flex;
+      flex-direction:row;
+
+      margin-bottom: 30px;
+    }
+    .c12{
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(255, 0, 0);
+      justify-content: space-between;
+      /* align-items: center; */
+    }
+    .d12{
+      height: 50px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(255, 0, 0);
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .e12{
+      /* margin-bottom: 100px; */
+
+      height: 110px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 10px;
+      border-color: rgb(199, 194, 194);
+      padding: 15px 20px;
+      box-shadow: 0 0 10px rgba(216, 61, 61, 0.5);
+
+      display: flex;
+      flex-direction: column;
+
+      width: 300px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .home-div, .notification-div, .messages-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    .home, .notification, .messages{
+     
+    }
+    .num{
+      padding: 3px 10px;
+      border-style: solid;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      font-weight: 600;
+      background-color: rgb(61, 135, 233);
+    }
+
+    .g12{
+      margin-top: 30px;
+      margin-bottom: 50px;
+
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 10px;
+      border-color: rgb(199, 194, 194);
+      padding: 15px 20px;
+      box-shadow: 0 0 10px rgba(79, 234, 65, 0.5);
+
+      display: flex;
+      flex-direction: column;
+
+      width: 350px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .row{
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-between; */
+      align-items: center;
+      
+      margin-bottom: 10px;
+    }
+    img{
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .info{
+      width: 200px;
+      
+    }
+    .follow-btn{
+      padding: 8px 18px ;
+      border: none;
+      border-radius: 10px;
+      background-color: rgb(53, 146, 245);
+      color: white;
+    }
+    .handle, .category{
+      margin: 0;
+      font-size: 14px;
+      color: gray;
+    }
+    .name{
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 0;
+    }
+    .f12{
+      margin-bottom: 100px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      height: 50px;
+      align-items: center;
+      border-style: solid;
+      border-width:1px;
+      border-radius: 5px;
+      background-color: rgb(151, 91, 208);
+      color: white;
+      font-family: Arial;
+
+      padding: 0px 10px;
+    }
+    .input{
+      width: 350px;
+      max-width: 450px;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 35px;
+    }
+    .download-btn{
+      padding: 8px 16px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: white;
+      color: white;
+      background-color:rgb(151, 91, 208) ;
+    }
+    .f12-home{
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="a12">
+      <div style="background-color: lightblue; width: 200px;">200px</div>
+      <div style="background-color: lightpink; width: 75px;">75px</div>
+    </div>
+    <div class="b12">
+      <div style="background-color: lightblue; width: 50px;">item-1</div>
+      <div style="background-color: lightpink; flex:1;">item-2</div>
+      <div style="background-color: lightblue; width: 75px;">item-3</div>
+    </div>
+    <div class="c12">
+      <div style="background-color: lightblue;">item-1</div>
+      <div style="background-color: lightpink;">item-2</div>
+      <div style="background-color: lightblue;">item-3</div>
+      <div style="background-color: lightpink;">item-4</div>
+    </div>
+    <div class="d12">
+      <div style="background-color: lightblue;">item-1</div>
+      <div style="background-color: lightpink;">item-2</div>
+    </div>
+  </div>
+  <div class="e12">
+    <div class="home-div">
+      <div class="home">Home</div>
+      <div class="num">14</div>
+    </div>
+    <div class="notification-div">
+      <div class="notification">Notification</div>
+      <div class="num">4</div>
+    </div>
+    <div class="messages-div">
+      <div class="messages">Messages</div>
+      <div class="num">5</div>
+    </div>
+  </div>
+  <div class="g12">
+    <div class="row">
+      <img src="/thumbnails/pet-01.webp" alt="">
+      <div class="info">
+        <p class="name">Dog</p>
+        <p class="handle">The Cute</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-btn">Follow</button>
+    </div>
+    <div class="row">
+      <img src="/thumbnails/pet-02.webp" alt="">
+      <div class="info">
+        <p class="name">Mimi</p>
+        <p class="handle">Cat</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-btn">Follow</button>
+    </div>
+    <div class="row">
+      <img src="/thumbnails/pet-3.png" alt="">
+      <div class="info">
+        <p class="name">Rex</p>
+        <p class="handle">Bull</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-btn">Follow</button>
+    </div>
+  </div>
+  <div class="f12">
+    <div class="f12-home">Home</div>
+    <div>
+      <input class="input" type="text" placeholder="Search">
+    </div>
+    <div>
+      <button class="download-btn">Download</button>
+    </div>
+  </div>
+</body>
+</html>
