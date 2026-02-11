@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14e</title>
+  <style>
+    body{
+      height: 2000px;
+      padding-top: 60px;
+    }
+    .header{
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 60px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(182, 177, 177);
+
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+    .body{
+      color: red;
+    }
+    .profile{
+      display: flex;
+    }
+    .profile-pic{
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin-left: 70px;
+    }
+    .btns{
+      margin-right: 50px;
+    }
+    .add-btn, .msg-btn{
+      border: none;
+      border-radius: 6px;
+      padding: 8px 16px;margin-right: 5px;
+    }
+    .add-btn{
+      color: white;
+      background-color: rgb(52, 128, 228);
+    }
+    .msg-btn{
+      background-color: rgb(222, 219, 219);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="profile">
+      <img class="profile-pic" src="/thumbnails/pet-01.webp" alt="">
+    </div>
+      <div class="btns">
+        <button class="add-btn">Add Friend</button>
+        <button class="msg-btn">Message</button>
+      </div>
+  </div>
+  <div class="body">
+    body
+  </div>
+</body>
+</html>
