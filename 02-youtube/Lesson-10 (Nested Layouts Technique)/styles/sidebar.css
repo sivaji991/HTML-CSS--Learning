@@ -5,4 +5,7 @@
   bottom: 0;
   top: 55px;
   width: 72px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(217, 215, 215);
 }
