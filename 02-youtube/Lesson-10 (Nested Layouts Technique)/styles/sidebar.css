@@ -8,4 +8,27 @@
   border-right-width: 1px;
   border-right-style: solid;
   border-right-color: rgb(217, 215, 215);
+  z-index: 200;
+  padding-top: 5px;
+}
+.sidebar-link{
+  height: 74px;
+  cursor: pointer;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sidebar-link:hover{
+  background-color: rgb(224, 221, 221);
+}
+.sidebar-link img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.sidebar-link div{
+  font-size: 10px;
+  font-family: Roboto, Arial;
+
 }
